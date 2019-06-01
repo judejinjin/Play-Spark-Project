@@ -1,0 +1,18 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+#GET        /                              controllers.Assets.at(path="/public", file="index.html")
+#GET        /jquery-2.1.4.min.js           controllers.Assets.at(path="/public", file="jquery-2.1.4.min.js")
+
+POST       /trend               controllers.SparkController.trend
+OPTIONS    /trend               controllers.SparkController.options
+
+#for debug
+POST       /questions           controllers.SparkController.questions
+POST       /responseStubs       controllers.SparkController.responseStubs
+POST       /response            controllers.SparkController.response
+
+# Home page
+
+# Map static resources from the /public folder to the /assets URL path

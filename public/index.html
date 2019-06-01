@@ -1,0 +1,33 @@
+<html>
+<script src="/jquery-2.1.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+  $(function() {
+
+            start();
+
+  });
+
+
+    function start() {
+        var trend = {
+            projectId: 112,
+            bucket: "day",
+            multiTimeSentOut: "no",
+            raw: "no"
+        }
+
+        $.ajax({
+            url: 'http://localhost:9000/trend',
+            method: 'post',
+            dataType: 'application/json',
+            success: function (data) {
+                parseJson(data)
+            },
+            data: JSON.stringify(trend)
+        });
+    }
+</script>
+<H1>Trend Analysis</H1>
+
+</html>

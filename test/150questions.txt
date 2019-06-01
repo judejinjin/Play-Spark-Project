@@ -1,0 +1,17 @@
+{"success":true,"memberType":1,"project":{"id":150,"name":"asd-123","welcome":"","terms":"","requiresSignature":false,"endOfSurvey":"Thank you for taking the time to complete this survey.","added":1461020863000},
+"questions":
+[{"order":1,"number":1,"title":"To what extent do you agree or disagree",
+"options":[{"position":"1","label":"yes"},{"position":"2","label":"no"}],
+"singleRow":false,"requiresForceRanking":false,"showLabels":false,"left":"","right":"",
+"statements":[{"position":"1","label":""}],"required":true,"type":"grid-scale","id":523,"projectId":150},
+
+{"order":2,"number":2,"title":"Do you like coffee?",
+"options":[{"position":"1","label":"Yes"},{"position":"2","label":"No"}],
+"dropdown":true,"other":false,"allowMultiple":false,"selectionsNumber":"1","required":true,"type":"multiple-choice-text","id":208,"projectId":150},
+
+{"order":3,"number":3,"title":"From 1 to 10. How important is your morning coffee?","min":"0","max":"10","allowDecimals":false,"allowNegative":false,"required":true,"type":"numeric","id":474,"projectId":150},
+
+{"order":4,"number":4,"title":"How do you prefer your coffe?",
+"options":[{"position":"1","label":"Just black"},{"position":"2","label":"With milk"},{"position":"3","label":"With milk and sugar"},{"position":"4","label":"Black with sugar"},{"position":"5","label":"Frozen"}],
+
+"dropdown":false,"required":true,"type":"rank-order","id":209,"projectId":150}]}
